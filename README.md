@@ -1,6 +1,6 @@
 # nmap_beacon_grab
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/bruteforce/nmap_beacon_grab.svg)][dockerhub]
+[![Docker Pulls](https://img.shields.io/docker/cloud/pulls/bruteforce/nmap_beacon_grab.svg)][dockerhub]
 
 > Light weight Nmap container that uses grab_beacon_config.nse to parse Cobalt Strike Beacon for a given host.
 
@@ -27,7 +27,7 @@ docker run --rm bruteforce/nmap_beacon_grab --script-help grab_beacon_config
 
 ## Target Selection
 
-To determine an IP target to scan, visit Shodan and input the JARM fingerprint to identify active infrastructure that is hosting Cobalt Strike server (False Positives are still possible with JARM's fuzzy hash) :
+To determine an IP target to scan, visit Shodan and input the JARM fingerprint to identify active infrastructure that is hosting the Cobalt Strike server (False Positives are still possible with JARM's fuzzy hash) :
 
 ```bash
 ssl.jarm:07d14d16d21d21d07c42d41d00041d24a458a375eef0c576d23a7bab9a9fb1

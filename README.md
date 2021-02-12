@@ -1,4 +1,5 @@
 # nmap_beacon_grab
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/bruteforce/nmap_beacon_grab.svg)][dockerhub]
 
 > Light weight Nmap container that uses grab_beacon_config.nse to parse Cobalt Strike Beacon for a given host.
@@ -8,6 +9,7 @@
 
 ## Usage
 
+To run the script against an IP target:
 ```bash
 docker run --rm bruteforce/nmap_beacon_grab --script grab_beacon_config -Pn <target>
 ```
@@ -15,6 +17,7 @@ docker run --rm bruteforce/nmap_beacon_grab --script grab_beacon_config -Pn <tar
 
 > `--rm` will automatically remove the container upon exiting.
 
+To receive details about the script:
 ```bash
 docker run --rm bruteforce/nmap_beacon_grab --script-help grab_beacon_config
 ```

@@ -27,9 +27,16 @@ docker run --rm bruteforce/nmap_beacon_grab --script-help grab_beacon_config
 
 ## Target Selection
 
-To determine an IP target to scan, visit Shodan and input the JARM fingerprint to identify active infrastructure that is hosting the Cobalt Strike server (False Positives are still possible with JARM's fuzzy hash) :
+To determine an IP target to scan, visit Shodan and input the JARM fingerprint to identify active infrastructure that is hosting the Cobalt Strike server (false positives are still possible with JARM's fuzzy hash) :
 
 ```bash
 ssl.jarm:07d14d16d21d21d07c42d41d00041d24a458a375eef0c576d23a7bab9a9fb1
 ```
 > `https://github.com/cedowens/C2-JARM` this site has good fingerprints for C2 infrastructure.
+
+Or you can go fingerprint targets that you identify and want to explore, in this case you can launch a Jupyter Notebook in a MyBinder docker container by going here:
+
+```bash
+https://github.com/beerMT/jarmJupy
+```
+> `The screen capture shows the startup process and interacting with the notebook inside the MyBinder browser environment.`

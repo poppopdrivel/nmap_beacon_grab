@@ -4,7 +4,7 @@
 
 > Light weight Nmap container that uses grab_beacon_config.nse to parse Cobalt Strike Beacon for a given host.
 
-- [Docker Container](https://hub.docker.com/repository/docker/bruteforce/nmap_beacon_grab) on Docker Hub
+- [Docker Container](https://hub.docker.com/r/bruteforce/nmap_beacon_grab) on Docker Hub
 - [Dockerfile](https://github.com/beerMT/nmap_beacon_grab/blob/main/nmap_beacon_grab.Dockerfile) on GitHub
 
 ## Usage

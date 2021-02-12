@@ -1,6 +1,6 @@
 # nmap_beacon_grab
 
-[![Docker Pulls](https://img.shields.io/docker/cloud/pulls/bruteforce/nmap_beacon_grab.svg)][dockerhub]
+![Docker Pulls](https://img.shields.io/docker/pulls/bruteforce/nmap_beacon_grab.svg)
 
 > Light weight Nmap container that uses grab_beacon_config.nse to parse Cobalt Strike Beacon for a given host.
 
